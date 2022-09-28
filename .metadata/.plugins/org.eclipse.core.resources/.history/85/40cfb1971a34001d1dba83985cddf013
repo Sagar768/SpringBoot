@@ -1,0 +1,37 @@
+package com.bootcore.beans;
+
+public class Sensor {
+	private String sensorName;
+	private int sensorMemory;
+	private int sensorCpu;
+
+	public String getSensorName() {
+		return sensorName;
+	}
+
+	public void setSensorName(String sensorName) {
+		this.sensorName = sensorName;
+	}
+
+	public int getSensorMemory() {
+		return sensorMemory;
+	}
+
+	@Override
+	public String toString() {
+		return "Sensor [sensorName=" + sensorName + ", sensorMemory=" + sensorMemory + ", sensorCpu=" + sensorCpu + "]";
+	}
+
+	public void setSensorMemory(int sensorMemory) {
+		this.sensorMemory = sensorMemory;
+	}
+
+	public int getSensorCpu() {
+		return sensorCpu;
+	}
+
+	public void setSensorCpu(int sensorCpu) {
+		this.sensorCpu = sensorCpu;
+	}
+
+}

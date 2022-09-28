@@ -1,0 +1,10 @@
+package com.bootcore.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Vechile {
+	@Value("{type}")
+	String type;
+	@Value("{model}")
+	int model;
+}

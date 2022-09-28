@@ -1,0 +1,23 @@
+package com.boot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+import com.boot.beans.Gold;
+
+@Configuration
+@ComponentScan(basePackages = "com.beancore.*")
+@EnableAutoConfiguration
+public class SpringApp {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(SpringApp.class, args);
+		Gold gold = context.getBean(Gold.class);
+		System.out.println(gold);
+	}
+}

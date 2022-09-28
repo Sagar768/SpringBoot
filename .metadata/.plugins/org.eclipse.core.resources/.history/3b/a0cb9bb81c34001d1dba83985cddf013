@@ -1,0 +1,10 @@
+package com.bootcore.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sensor {
+	private String sensorName;
+	private int sensorMemory;
+	private int sensorCpu;
+}

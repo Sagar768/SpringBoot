@@ -1,0 +1,17 @@
+package com.bootcore.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Robot {
+	@Value("${robotName}")
+	private String robotName;
+	@Value("${robotModel}")
+	private int robotModel;
+	@Value("${robotPrice}")
+	private int robotPrice;
+	@Autowired
+	private Sensor sensor;
+}

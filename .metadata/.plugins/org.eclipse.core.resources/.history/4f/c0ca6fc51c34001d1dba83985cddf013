@@ -1,0 +1,14 @@
+package com.bootcore.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sensor {
+	@Value("${sensorName}")
+	private String sensorName;
+	@Value("{sensorMemory}")
+	private int sensorMemory;
+	@Value("${sensorCpu}")
+	private int sensorCpu;
+}

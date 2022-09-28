@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Course\Spring MVC. SpringBoot ,Microserviecs\Spring Boot\workspace\archetypes\4-importDependency"/>
+			<item value="D:\Course\Spring MVC. SpringBoot ,Microserviecs\Spring Boot\workspace\archetypes\3-bootAppWithoutPluginConfig"/>
+			<item value="D:\Course\Spring MVC. SpringBoot ,Microserviecs\Spring Boot\workspace\archetypes"/>
+			<item value="D:\Course\Spring MVC. SpringBoot ,Microserviecs\Spring Boot\workspace\archetypes\bootcore"/>
+			<item value="D:\Course\Spring MVC. SpringBoot ,Microserviecs\Spring Boot\workspace\archetypes\2-bootAppWithPluginConfig"/>
+			<item value="D:\Course\Spring MVC. SpringBoot ,Microserviecs\Spring Boot\workspace\archetypes\1-bootcore"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

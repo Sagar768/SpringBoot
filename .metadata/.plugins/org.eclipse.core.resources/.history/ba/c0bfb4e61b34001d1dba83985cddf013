@@ -1,0 +1,47 @@
+package com.bootcore.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Robot {
+	@Autowired
+	private Sensor sensor;
+	@Value("${robotName}")
+	private String robotName;
+
+	public String getRobotName() {
+		return robotName;
+	}
+
+	public void setRobotName(String robotName) {
+		this.robotName = robotName;
+	}
+
+	public int getRobotModel() {
+		return robotModel;
+	}
+
+	public void setRobotModel(int robotModel) {
+		this.robotModel = robotModel;
+	}
+
+	public int getRobotPrice() {
+		return robotPrice;
+	}
+
+	public void setRobotPrice(int robotPrice) {
+		this.robotPrice = robotPrice;
+	}
+
+	@Value("${robotModel}")
+	private int robotModel;
+	@Value("${robotPrice}")
+	private int robotPrice;
+
+	@Override
+	public String toString() {
+		return "Robot [robotName=" + robotName + ", robotModel=" + robotModel + ", robotPrice=" + robotPrice + "]";
+	}
+}

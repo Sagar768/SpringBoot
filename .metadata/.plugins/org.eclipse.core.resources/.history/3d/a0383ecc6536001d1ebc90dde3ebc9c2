@@ -1,0 +1,6 @@
+package com.bootcore.beans;
+
+public class Vechile {
+	String type;
+	int model;
+}

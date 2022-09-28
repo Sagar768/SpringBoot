@@ -1,0 +1,7 @@
+package com.bootcore;
+
+public class BootApplication {
+	public static void main(String[] args) {
+
+	}
+}

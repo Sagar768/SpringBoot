@@ -1,0 +1,8 @@
+package com.bootcore.beans;
+
+public class Sensor {
+	private String sensorName;
+	private int sensorMemory;
+	private int sensorCpu;
+
+}

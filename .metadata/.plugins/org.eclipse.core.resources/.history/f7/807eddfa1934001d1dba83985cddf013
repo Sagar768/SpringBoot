@@ -1,0 +1,5 @@
+package com.bootcore.beans;
+
+public class Robot {
+
+}
